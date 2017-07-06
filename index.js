@@ -15,7 +15,7 @@ app.post('/tweet', function (req, res) {
 
 app.get('/getTweets', function (req, res) {
     var requestQuery = req.query
-    twitterAPI.tweetsSearch(requestQuery.q,requestQuery.count,requestQuery.util,res)
+    twitterAPI.tweetsSearch(requestQuery.q,requestQuery.count,requestQuery.until,res)
 })
 
 app.listen(process.env.PORT || 3000, function(){
