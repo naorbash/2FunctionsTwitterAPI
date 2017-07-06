@@ -1,0 +1,15 @@
+{
+  "name": "tweetme",
+  "version": "1.0.0",
+  "description": "Naor's App for RapidAPI test",
+  "main": "./index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "NaorBasher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
