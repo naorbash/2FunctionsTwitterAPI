@@ -4,7 +4,8 @@
   "description": "Naor's App for RapidAPI test",
   "main": "./index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "node index.js"
   },
   "author": "NaorBasher",
   "license": "ISC",
