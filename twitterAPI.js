@@ -29,14 +29,14 @@ function tweet(status, res) {
     })
 }
 
-function tweetsSearch(searchString, count, util, res) {
+function tweetsSearch(searchString, count, until, res) {
     request.get({
         url: 'https://api.twitter.com/1.1/search/tweets.json',
         oauth: authentication,
         qs: {
             q: searchString,
             count: count,
-            util: util
+            until: until
         }
     }, function (error, response) {
         if (error) {
