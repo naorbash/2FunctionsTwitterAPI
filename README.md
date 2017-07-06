@@ -6,7 +6,7 @@ Supports:
 
 **1.Twitting**
 
-**2.search for a list of tweets.**
+**2.Search for a list of tweets.**
 
 ## Tweet a message:
 URL:
