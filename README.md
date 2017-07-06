@@ -32,11 +32,11 @@ Method: **GET**
 
 Expected **GET** request like here:
 ```
-https://naorbashertwitterapi.herokuapp.com/getTweets?q="Trump"&count=5&util="2017/07/06"
+https://naorbashertwitterapi.herokuapp.com/getTweets?q=Trump&count=5&until=2017-07-06
 ```
 ### Query explnatoin:
-q = **search query of 500 characters maximum**
+q = **search query**
 
 count = **The number of tweets to return per page, up to a maximum of 100. Defaults to 15**
 
-util = **Returns tweets created before the given date. Date should be formatted as YYYY-MM-DD. Keep in mind that the search index has a 7-day limit.**
+until = **Returns tweets created before the given date. Date should be formatted as YYYY-MM-DD. Keep in mind that the search index has a 7-day limit.**
