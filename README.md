@@ -2,7 +2,10 @@
 
 Twitter API Client for node. 
 
-Supports twitting and a search for a list of tweets.
+Supports:
+**1.Twitting**
+
+**2.search for a list of tweets.**
 
 ## Tweet a message:
 URL:
