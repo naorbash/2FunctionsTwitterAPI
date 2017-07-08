@@ -4,7 +4,7 @@ Twitter API Client for node.
 
 Supports:
 
-**1.Twitting**
+**1.Tweeting**
 
 **2.Search for a list of tweets.**
 
@@ -34,7 +34,7 @@ Expected **GET** request like here:
 ```
 https://naorbashertwitterapi.herokuapp.com/getTweets?q=Trump&count=5&until=2017-07-06
 ```
-### Query explnatoin:
+### Query Explanation:
 q = **Search query: tell us the topic you want to see tweets about - A Required Field**
 
 count = **The number of tweets to return per page, up to a maximum of 100. Defaults to 15**
