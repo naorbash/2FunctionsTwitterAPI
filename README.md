@@ -35,7 +35,7 @@ Expected **GET** request like here:
 https://naorbashertwitterapi.herokuapp.com/getTweets?q=Trump&count=5&until=2017-07-06
 ```
 ### Query Explanation:
-q = **Search query: tell us the topic you want to see tweets about - A Required Field**
+q = **Search query: tell me the topic you want to see tweets about - A Required Field**
 
 count = **The number of tweets to return per page, up to a maximum of 100. Defaults to 15**
 
